@@ -1,0 +1,50 @@
+body {
+    background: url(weather.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Roboto", sans-serif;
+}
+
+.container {
+    text-align: center;
+    border: 2.5px solid rgb(0, 0, 0);
+    height: 600px;
+    width: 500px;
+    margin: auto;
+}
+
+#heading {
+    color: rgb(0, 0, 0);
+    font-size: 43px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+#city {
+    border: 0.1px solid rgb(0, 0, 0);
+    padding: 15px;
+    border-radius: 70px;
+    width: 300px;
+}
+
+.output {
+    color: rgb(0, 0, 0);
+}
+
+#searchBtn {
+    border: 0.1px solid rgb(0, 0, 0);
+    padding: 15px;
+    border-radius: 70px;
+    width: 80px;
+}
+
+.output {
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    width: 400px;
+    margin: auto;
+}
+
+#discription {
+    text-transform: capitalize;
+}
